@@ -1,0 +1,6 @@
+cd ~/Desktop/kadai_005
+git init
+git add .
+git commit -m "課題5提出用"
+git branch -M main
+git remote add origin https://github.com/あなたのアカウント名/git-basic-kadai.git
