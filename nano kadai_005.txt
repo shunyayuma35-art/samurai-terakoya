@@ -1,0 +1,17 @@
+# Step1: ローカルリポジトリ作成
+git init
+
+# Step2: hello_world.txt作成
+echo "Hello, world!" >> hello_world.txt
+
+# Step3: 1回目のコミット
+git add hello_world.txt
+git commit -m "1回目のコミット"
+
+# Step3: 2回目の変更とコミット
+echo "こんにちは、世界！" >> hello_world.txt
+git add hello_world.txt
+git commit -m "2回目のコミット"
+
+# Step4: 変更履歴の確認
+git log
